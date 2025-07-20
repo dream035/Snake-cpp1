@@ -10,7 +10,7 @@ using namespace std;
 class chessboard
 {
 public:
-  char qp[H][W];
+  char qp[H][W];//二维数组
   int i, j, x1, y1;
   chessboard(); // 构造函数
   void food();
